@@ -1,0 +1,22 @@
+{
+  "name": "crudify-ui",
+  "version": "1.0.0",
+  "description": "Lightweight CRUD UI framework",
+  "main": "dist/crudify.js",
+  "style": "dist/crudify.css",
+  "scripts": {
+    "build:js": "terser src/crudify.js -o dist/crudify.min.js -c -m",
+    "build:css": "cleancss -o dist/crudify.min.css src/crudify.css",
+    "copy:js": "cp src/crudify.js dist/crudify.js",
+    "copy:css": "cp src/crudify.css dist/crudify.css",
+    "build": "npm run copy:js && npm run copy:css && npm run build:js && npm run build:css"
+  },
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "clean-css-cli": "^5.6.3",
+    "terser": "^5.46.1"
+  }
+}
