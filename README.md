@@ -27,8 +27,8 @@ It integrates with REST APIs and requires no framework dependency (no React, no 
 **Versioned**
 
 ```html
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/crudify-ui@1.0.0/dist/crudify.min.css">
-<script src="https://cdn.jsdelivr.net/npm/crudify-ui@1.0.0/dist/crudify.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/crudify-ui@1.0.1/dist/crudify.min.css">
+<script src="https://cdn.jsdelivr.net/npm/crudify-ui@1.0.1/dist/crudify.min.js"></script>
 
 ```
 
